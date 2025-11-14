@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Body{
+    font-family: Montserrat , sans-serif;
+    background-color: #F3EBE4;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 500px;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    shadow-box: 0 15 25 0.rgrgb(0, 0, 0) 0)4d;
+}
+.card-img img{
+    width: 350px;
+    height: 500px;
+    object-fit: cover;  
+}
+.card-text{
+    padding: 15px;
+    margin-top: 0px;
+}
+.niche{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #6c7289ff;
+    text-transform: uppercase;
+    
+}
+h1{
+    font-size: 48px;
+    color: #1c232bff;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.description{
+    font-size: 18px;
+    color: #6c7289ff;
+    margin: 15px 0;
+}
