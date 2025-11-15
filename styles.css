@@ -29,6 +29,7 @@ Body{
 .card-text{
     padding: 15px;
     margin-top: 0px;
+    margin-left: 15px;
 }
 .niche{
     margin-top: 10px;
@@ -48,4 +49,38 @@ h1{
     font-size: 18px;
     color: #6c7289ff;
     margin: 15px 0;
+}
+.price{
+    margin: 25px 0;
+}
+.price-one{
+    padding-right: 25px;
+    font-size: 40px;
+    color: #3c8067ff;
+    font-weight: 800;
+}
+.price-two{
+    font-size: 16px;
+    text-decoration:line-through;
+    color: #6c7289ff;
+}
+button{
+    padding: 15px;
+    background-color: #3c8067ff;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 15px;
+    width: 100%;
+}
+button img{
+    font-size: 15px;
+    padding-right: 15px;
+}
+.attribution{
+    display: flex;
+    align-items: : center;
+    justify-content: center;
+    margin-top: 50px;
 }
